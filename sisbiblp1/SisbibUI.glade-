@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.20.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow">
+    <property name="can_focus">False</property>
+    <property name="modal">True</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkEntry" id="entrada_nome_cadastro">
+            <property name="width_request">409</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">36</property>
+            <property name="y">46</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_datanasc_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">37</property>
+            <property name="y">108</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_usuario_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">41</property>
+            <property name="y">298</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_CPF_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">252</property>
+            <property name="y">163</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_senha_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="halign">center</property>
+            <property name="valign">end</property>
+          </object>
+          <packing>
+            <property name="x">274</property>
+            <property name="y">296</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_email_cadastro">
+            <property name="width_request">408</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">37</property>
+            <property name="y">219</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_datacad_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">252</property>
+            <property name="y">108</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_RG_cadastro">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">38</property>
+            <property name="y">164</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">111</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Nome Completo</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">53</property>
+            <property name="y">23</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">136</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Data de nascimento</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">52</property>
+            <property name="y">83</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">136</property>
+            <property name="height_request">23</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Data de cadastro</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">257</property>
+            <property name="y">82</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">24</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">RG</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">53</property>
+            <property name="y">145</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">24</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">CPF</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">268</property>
+            <property name="y">144</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Email</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">21</property>
+            <property name="y">202</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="width_request">420</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkSeparator">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="padding">1</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">34</property>
+            <property name="y">259</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">26</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Usuário</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">28</property>
+            <property name="y">271</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Senha</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">254</property>
+            <property name="y">274</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botao_cadastrar_cadastro">
+            <property name="label" translatable="yes">Cadastrar</property>
+            <property name="width_request">100</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">126</property>
+            <property name="y">354</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botao_voltar_cadastro">
+            <property name="label" translatable="yes">Voltar</property>
+            <property name="width_request">97</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">269</property>
+            <property name="y">354</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow">
+    <property name="can_focus">False</property>
+    <property name="modal">True</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton" id="botao_ok_aviso_cadastro">
+            <property name="label" translatable="yes">Ok</property>
+            <property name="width_request">50</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">75</property>
+            <property name="y">68</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">106</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Usuário Cadastrado!</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">23</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkApplicationWindow" id="janela_chave">
+    <property name="can_focus">False</property>
+    <property name="modal">True</property>
+    <child>
+      <object class="GtkFixed" id="fixo_chave">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLabel" id="label_chave">
+            <property name="width_request">190</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Digite a chave para cadastrar-se.
+</property>
+          </object>
+          <packing>
+            <property name="x">35</property>
+            <property name="y">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_chave">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">45</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botao_ok_chave">
+            <property name="label" translatable="yes">Ok</property>
+            <property name="width_request">74</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">43</property>
+            <property name="y">85</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botao_cancelar_chave">
+            <property name="label" translatable="yes">Cancelar</property>
+            <property name="width_request">84</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">132</property>
+            <property name="y">85</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="janela_login">
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <child>
+      <object class="GtkFixed" id="fixo_login">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkEntry" id="entrada_usuario">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">119</property>
+            <property name="y">89</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrada_senha">
+            <property name="width_request">168</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_entrada">
+            <property name="width_request">61</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Usuário</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold Oblique 14"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">124</property>
+            <property name="y">68</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_senha">
+            <property name="width_request">48</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Senha</property>
+            <attributes>
+              <attribute name="font-desc" value="Calibri Bold Oblique 14"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">125</property>
+            <property name="y">128</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="check_lembrar">
+            <property name="label" translatable="yes">Lembrar-me</property>
+            <property name="width_request">96</property>
+            <property name="height_request">21</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="draw_indicator">True</property>
+          </object>
+          <packing>
+            <property name="x">151</property>
+            <property name="y">189</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botao_entrar">
+            <property name="label" translatable="yes">Entrar</property>
+            <property name="width_request">70</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">163</property>
+            <property name="y">233</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="width_request">409</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkMenuBar">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkMenuItem">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Aj_uda</property>
+                    <property name="use_underline">True</property>
+                    <child type="submenu">
+                      <object class="GtkMenu">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <child>
+                          <object class="GtkImageMenuItem" id="menu_sobre">
+                            <property name="label">gtk-about</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="use_underline">True</property>
+                            <property name="use_stock">True</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="botao_cadastro">
+            <property name="width_request">84</property>
+            <property name="height_request">26</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Cadastre-se</property>
+            <attributes>
+              <attribute name="underline" value="True"/>
+              <attribute name="foreground" value="#34346565a4a4"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">154</property>
+            <property name="y">207</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
